@@ -59,7 +59,7 @@ img {
 } */
 
 header {
-    background: url("../JPG/pc_first@2x-100.jpg") center center / cover no-repeat fixed;
+    background: url("../JPG/pc_first@2x-100.jpg") center center / cover no-repeat;
     height: 100vh;
     /* width: auto; */
   }
@@ -117,11 +117,17 @@ header {
 
 /* コンセプト */
 
+.concept_section {
+    width: 100%;
+    background-color: #f4e3e1;
+}
+
 .concept {
     max-width: 1160px;
     margin: 0 auto;
     display: flex;
     align-items: center;
+    margin-top: -135px;
 }
 
 .myself {
