@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+/* リセット */
+html,
+body,
+header,
+footer,
+main,
+section,
+h1,
+h2,
+h3,
+ul,
+li,
+p,
+dl,
+dt,
+dd {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: #751217;
+    font-family: fot-tsukuardgothic-std, sans-serif;
+    font-style: normal;
+    font-weight: 400;    
+    font-feature-settings: "palt";
+}
+
+a {
+    /*下線を消す*/
+    text-decoration: none;
+    /*色を消す*/
+    color: inherit;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+ul {
+    /*左の「・」を消す*/
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+    border: none;
+}
+
+/* ここまで */
+
+
+/* ヘッダー */
+
+/* body {
+    background-color: gainsboro;
+} */
+
+header {
+    background: url("JPG/pc_first@2x-100.jpg") center center / cover no-repeat fixed;
+    height: 100vh;
+    /* width: auto; */
+  }
+
+.header_wrap {
+    display: flex;
+    max-width: 1920px;
+    padding-top: 30px;
+    padding-bottom: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba (0,0,0,0.2);
+    z-index: 100;
+}
+
+.logo {
+    width: 200px;
+}
+
+.pc_nav ul {
+    display: flex;
+}
+
+.sns ul {
+    display: flex;
+}
