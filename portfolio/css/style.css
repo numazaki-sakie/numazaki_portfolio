@@ -59,7 +59,7 @@ img {
 } */
 
 header {
-    background: url("JPG/pc_first@2x-100.jpg") center center / cover no-repeat fixed;
+    background: url("../JPG/pc_first@2x-100.jpg") center center / cover no-repeat fixed;
     height: 100vh;
     /* width: auto; */
   }
@@ -67,8 +67,11 @@ header {
 .header_wrap {
     display: flex;
     max-width: 1920px;
-    padding-top: 30px;
-    padding-bottom: 48px;
+    height: 100px;
+    /* padding-top: 30px;
+    padding-bottom: 48px; */
+    font-size: 21px;
+    color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -77,18 +80,68 @@ header {
     left: 0;
     width: 100%;
     box-sizing: border-box;
-    background-color: rgba (0,0,0,0.2);
+    background-color: rgba(0,0,0,0.2);
     z-index: 100;
 }
 
 .logo {
     width: 200px;
+    padding-left: 100px;
+    padding-top: 15px;
 }
 
 .pc_nav ul {
     display: flex;
 }
 
+.pc_nav ul li {
+    color: #fff;
+    margin-right: 100px;
+}
+
+.pc_nav li:last-child {
+    margin-right: 0;
+}
+
+.sns {
+    padding-right: 100px;
+}
+
 .sns ul {
     display: flex;
+}
+
+.sns ul li {
+    color: #fff;
+}
+
+/* コンセプト */
+
+.concept {
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.myself {
+    width: 400px;
+}
+
+.concept_title{
+    font-size: 48px;
+    line-height: 1.25;
+    letter-spacing: 0.05em;
+}
+
+.message {
+    font-size: 18px;
+    line-height: 2.111;
+    letter-spacing: 0.05em;
+    padding-top: 70px;
+}
+
+.concept_text {
+    width: 50%;
+    padding-left: 120px;
 }
