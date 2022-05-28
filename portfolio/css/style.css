@@ -116,10 +116,28 @@ header {
 }
 
 .name {
-    font-size: 48px;
+    transform-origin: top left;
+    font-size: 38px;
     color: #fff;
     letter-spacing: 0.15em;
+    transform: rotate(90deg);
+    display: inline-block;
+    position: absolute;
+    top: 150px;
+    left: 260px;
 }
+
+.biglogo {
+    width: 500px;
+    padding-top: 120px;
+}
+
+.heart {
+    text-align: center;
+}
+
+
+
 
 /* コンセプト */
 
@@ -139,14 +157,14 @@ header {
 .myself {
     width: 400px;
     padding-bottom: 65px;
-    margin-top: -135px;
+    margin-top: -150px;
 }
 
 .concept_title{
     font-size: 48px;
     line-height: 1.25;
     letter-spacing: 0.05em;
-    margin-top: -135px;
+    margin-top: -150px;
 }
 
 .message {
@@ -159,4 +177,199 @@ header {
 .concept_text {
     width: 50%;
     padding-left: 120px;
+}
+
+
+
+/* アバウト見出し */
+.decoration_box {
+    width: 200px;
+    height: 10px;
+    background-color: #f2d6d1;
+}
+
+.about_img {
+    width: 180px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.about_title {
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+.about_index {
+    display: flex;
+    align-items: center;
+}
+
+
+/* アバウト */
+
+.myname {
+    font-size: 80px;
+}
+
+.name_sub {
+    font-size: 21px;
+}
+
+.profile_img {
+    width: 400px;
+}
+
+.about_info_area {
+    max-width: 1160px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.nume_text_area {
+    width: 50%;
+}
+
+.about_face_img {
+    text-align: center;
+}
+/* 効かない */
+
+
+/* アバウトの下のテキスト */
+
+.about_text1 {
+    width: 450px;
+    margin-right: 60px;
+}
+
+.about_text2 {
+    width: 450px;
+}
+
+.abouttext {
+    max-width: 1160px;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/* コンタクト見出し */
+.decoration_box {
+    width: 200px;
+    height: 10px;
+    background-color: #f2d6d1;
+}
+
+.contact_img {
+    width: 230px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.contact_title {
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+.contact_index {
+    display: flex;
+    align-items: center;
+}
+
+
+/* コンタクトセクション */
+.contact_text {
+    font-size: 18px;
+    line-height: 1.77;
+    color: #000;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 75px;
+}
+
+.contact_wrap {
+    max-width: 1160px;
+    height: 880px;
+    margin: 0 auto;
+    background-color: #e6e6e6;
+}
+
+.contact_list li{
+    font-size: 18px;
+    color: #000;
+    padding-bottom: 90px;
+}
+
+/* ______ */
+
+form {
+    width: 600px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 100%;
+    margin-top: 10px;
+    padding: 4px 8px;
+}
+
+textarea {
+    height: 148px;
+    margin-bottom: 30px;
+}
+form > p {
+    font-size: 16px;
+    color: #000;
+    line-height: 1.4;
+    margin-bottom: 40px;
+}
+
+.submitBtn {
+    text-align: center;
+}
+input[type="submit"] {
+    background-color: #f2d6d1;
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+
+
+
+/* フッター */
+
+footer {
+    max-width: 100%;
+    height: 300px;
+    margin-top: 180px;
+    background-color: #f4e3e1;
+}
+
+.footerlogo_img {
+    width: 360px;
+}
+
+.footerlogo {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.copyright {
+    font-size: 18px;
+    color: #4d4d4d;
+    text-align: center;
+    padding-bottom: 55px;
 }
