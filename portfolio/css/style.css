@@ -207,6 +207,12 @@ header {
 
 /* アバウト */
 
+.about_section {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: -50px;
+}
+
 .myname {
     font-size: 80px;
 }
@@ -220,39 +226,71 @@ header {
 }
 
 .about_info_area {
-    max-width: 1160px;
+    /* max-width: 1015px; */
     display: flex;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
-.nume_text_area {
+.name_text_area {
     width: 50%;
 }
-
-.about_face_img {
-    text-align: center;
-}
-/* 効かない */
 
 
 /* アバウトの下のテキスト */
 
 .about_text1 {
     width: 450px;
-    margin-right: 60px;
+    margin-left: 20px;
+    margin-right: 90px;
+    line-height: 1.89;
 }
 
 .about_text2 {
     width: 450px;
+    line-height: 1.89;
 }
 
 .abouttext {
-    max-width: 1160px;
+    /* max-width: 1015px; */
+    /* margin: 0 auto; */
     display: flex;
-    margin: 0 auto;
+    margin-top: -48px;
 }
 
+.about_face_img {
+    padding-left: 230px;
+}
 
+.myname {
+    letter-spacing: 0.075em;
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+.name_sub {
+    font-size: 21px;
+    background-color: #e2a498;
+    color: #fff;
+    width: 350px;
+    height: 30px;
+    border-radius: 20px;
+    padding-top: 9px;
+    padding-left: 38px;
+}
+
+/* SNSフォローミー */
+
+.followme_img {
+    width: 172px;
+}
+
+.sns_link {
+    display: flex;
+}
+
+.SNS_icon {
+    margin: 0 auto;
+}
 
 
 
