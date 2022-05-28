@@ -207,40 +207,140 @@ header {
 
 /* サービス */
 
+/* WEB制作 */
 .web_img {
     width: 50%;
+    position: relative;
 }
 
 .index_number {
     font-size: 90px;
+    opacity:0.3;
 }
 
-h3 {
+.web_h3 {
     font-size: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+    letter-spacing: 0.1em;
 }
 
 .web_text {
     font-size: 18px;
     line-height: 2;
-    background-color: #f4e3e1;
+    padding: 60px;
 }
 
 .web_detail {
-    width: 40%;
-    padding-left: 10%;
+    width: 50%;
+    height: 400px;
+    background-color: #f4e3e1;
+    margin-top: 40px;
+    margin-left: -20px;
 }
 
 .web {
     width: 1070px;
     margin: 0 auto;
     display: flex;
+    margin-bottom: 80px;
 }
 
-/* .web_index {
-    display: block;
-} */
+.web_index {
+    display: flex;
+    margin-left: 50px;
+    margin-top: -40px;
+}
 
 
+/* グラフィックデザイン */
+.graphic_img {
+    width: 50%;
+    position: relative;
+}
+
+
+.graphic_h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+    letter-spacing: 0.1em;
+}
+
+.graphic_text {
+    font-size: 18px;
+    line-height: 2;
+    padding: 60px;
+}
+
+.graphic_detail {
+    width: 50%;
+    height: 400px;
+    background-color: #f4e3e1;
+    margin-top: 40px;
+    /* margin-left: -20px; */
+}
+
+.graphic {
+    width: 1070px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.graphic_index {
+    display: flex;
+    margin-left: 50px;
+    margin-top: -40px;
+}
+
+
+/* アザー */
+.other_img {
+    width: 50%;
+    position: relative;
+}
+
+.other_number {
+    font-size: 90px;
+    opacity:0.3;
+}
+
+.other_h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+    letter-spacing: 0.1em;
+}
+
+.other_text {
+    font-size: 18px;
+    line-height: 2;
+    padding: 60px;
+}
+
+.other_detail {
+    width: 50%;
+    height: 400px;
+    background-color: #f4e3e1;
+    margin-top: 40px;
+    margin-left: -20px;
+}
+
+.other {
+    width: 1070px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.other_index {
+    display: flex;
+    margin-left: 50px;
+    margin-top: -40px;
+}
 
 
 
@@ -265,6 +365,7 @@ h3 {
 .about_index {
     display: flex;
     align-items: center;
+    margin-top: 160px;
 }
 
 
