@@ -181,9 +181,72 @@ header {
 
 
 
+/* サービス見出し */
+.decoration_box {
+    width: calc(calc(100% - 1160px) / 2);
+    height: 10px;
+    background-color: #f2d6d1;
+}
+
+.service_img {
+    width: 218px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.service_title {
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+.service_index {
+    display: flex;
+    align-items: center;
+}
+
+
+/* サービス */
+
+.web_img {
+    width: 50%;
+}
+
+.index_number {
+    font-size: 90px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.web_text {
+    font-size: 18px;
+    line-height: 2;
+    background-color: #f4e3e1;
+}
+
+.web_detail {
+    width: 40%;
+    padding-left: 10%;
+}
+
+.web {
+    width: 1070px;
+    margin: 0 auto;
+    display: flex;
+}
+
+/* .web_index {
+    display: block;
+} */
+
+
+
+
+
 /* アバウト見出し */
 .decoration_box {
-    width: 200px;
+    width: calc(calc(100% - 1160px) / 2);
     height: 10px;
     background-color: #f2d6d1;
 }
@@ -221,8 +284,10 @@ header {
     font-size: 21px;
 }
 
-.profile_img {
-    width: 400px;
+
+.about_face_img {
+     padding-left: 10%;
+     width: 40%;
 }
 
 .about_info_area {
@@ -257,9 +322,9 @@ header {
     margin-top: -48px;
 }
 
-.about_face_img {
+/* .about_face_img {
     padding-left: 230px;
-}
+} */
 
 .myname {
     letter-spacing: 0.075em;
@@ -282,14 +347,15 @@ header {
 
 .followme_img {
     width: 172px;
+    margin: 0 auto;
+    display: block;
+    padding-top: 45px;
 }
 
 .sns_link {
     display: flex;
-}
-
-.SNS_icon {
-    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 180px;
 }
 
 
@@ -297,7 +363,7 @@ header {
 
 /* コンタクト見出し */
 .decoration_box {
-    width: 200px;
+    width: calc(calc(100% - 1160px) / 2);
     height: 10px;
     background-color: #f2d6d1;
 }
@@ -358,6 +424,7 @@ textarea {
     width: 100%;
     margin-top: 10px;
     padding: 4px 8px;
+    box-sizing: border-box;
 }
 
 textarea {
