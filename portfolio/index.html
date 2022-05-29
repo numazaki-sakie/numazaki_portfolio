@@ -106,8 +106,11 @@
     <!-- 実績見出し -->
     <div class="works_index" id="works">
         <div class="decoration_box"></div>
-        <img class="works_img" src="PNG/sp_works@2x.png" alt="これまでの実績">
-        <h2 class="works_title">これまでの実績</h2>
+        <div class="works_caption">
+            <img class="works_img" src="PNG/sp_works@2x.png" alt="これまでの実績">
+            <h2 class="works_title">これまでの実績</h2>
+        </div>
+        <div class="decoration_box2"></div>
     </div>
 
 
@@ -158,8 +161,11 @@
     <!-- サービス見出し -->
     <div class="service_index" id="servise">
         <div class="decoration_box"></div>
-        <img class="service_img" src="PNG/pc_service@2x.png" alt="私にできること">
-        <h2 class="service_title">私にできること</h2>
+        <div class="service_caption">
+            <img class="service_img" src="PNG/pc_service@2x.png" alt="私にできること">
+            <h2 class="service_title">私にできること</h2>
+        </div>
+        <div class="decoration_box2"></div>
     </div>
 
 
@@ -305,6 +311,8 @@
             <script type="text/javascript">
                 var submitted = false;
             </script>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display: none"
+                onload="if(submitted)  {window.location='thanks.html';}"></iframe>
 
 
         </div>

@@ -142,18 +142,30 @@ header {
 }
 
 .concept {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.myself {
+    width: 40%;
+    padding-bottom: 65px;
+    margin-top: -150px;
+}
+
+/* .concept {
     max-width: 1160px;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    /* margin-top: -135px; */
 }
 
 .myself {
     width: 400px;
     padding-bottom: 65px;
     margin-top: -150px;
-}
+} */
 
 .concept_title{
     font-size: 48px;
@@ -171,7 +183,7 @@ header {
 
 .concept_text {
     width: 50%;
-    padding-left: 120px;
+    padding-left: 10%;
 }
 
 
@@ -183,6 +195,10 @@ header {
     background-color: #f2d6d1;
 }
 
+.decoration_box2 {
+    display: none;
+}
+
 .works_img {
     width: 180px;
     margin-top: 30px;
@@ -192,11 +208,16 @@ header {
 .works_title {
     font-size: 24px;
     padding-left: 10px;
+    padding-top: 50px;
 }
 
 .works_index {
     display: flex;
     align-items: center;
+}
+
+.works_caption {
+    display: flex;
 }
 
 
@@ -217,12 +238,17 @@ header {
 .service_title {
     font-size: 24px;
     padding-left: 10px;
+    padding-top: 50px;
 }
 
 .service_index {
     display: flex;
     align-items: center;
     margin-top: 120px;
+}
+
+.service_caption {
+    display: flex;
 }
 
 
@@ -655,7 +681,7 @@ footer {
         transform: rotate(90deg);
         display: inline-block;
         position: absolute;
-        top: 320px;
+        top: 360px;
         left: 100px;
     }
 
@@ -663,12 +689,126 @@ footer {
 
 /* スマホレスポンシブ */
 @media screen and (max-width: 767px) {
+
+    /* ヘッダー&トップ */
+
+    header {
+        background: url("../JPG/sp_first@2x-100.jpg") center center / cover no-repeat;
+        height: 100vh;
+    }
+
+
+    /* コンセプト */
+
     .concept {
         display: block;
     }
 
     .myself {
-        text-align: center;
+        width: 280px;
+        margin: 0 auto;
+        padding-top: 25px;
     }
+
+    .concept_titl {
+        margin-top: -400px;
+    }
+    /* コンセプトの見出しの位置を上げたいが上がらない */
+
+    .message {
+        padding-bottom: 50px;
+    }
+
+    .concept_text {
+        width: 375px;
+        margin: 0 auto;
+        padding-left: 0 20px;
+    }
+
+
+    /* works */
+
+    .decoration_box {
+        display: none;        
+    }
+    
+    .decoration_box2 {
+        display: block;
+        width: 60%;
+        height: 8px;
+        background-color: #f2d6d1;
+        margin-top: -20px;
+        margin-bottom: 40px;
+    }
+    
+    .works_img {
+        width: 103px;
+        margin-top: 30px;
+        margin-left: 30px;
+        padding-top: 30px;
+    }
+    
+    .works_title {
+        font-size: 18px;
+        padding-left: 10px;
+        padding-top: 70px;
+    }
+    
+    .works_index {
+        display: block;
+        align-items: center;
+    }
+    
+    .works_caption {
+        display: flex;
+    }
+    
+
+
+    /* サービス見出し */
+    .decoration_box {
+        display: none;        
+    }
+    
+    .decoration_box2 {
+        display: block;
+        width: 60%;
+        height: 8px;
+        background-color: #f2d6d1;
+        margin-top: -20px;
+        margin-bottom: 40px;
+    }
+    
+    .service_img {
+        width: 125px;
+        margin-top: 30px;
+        margin-left: 30px;
+        padding-top: 30px;
+    }
+    
+    .service_title {
+        font-size: 18px;
+        padding-left: 10px;
+        padding-top: 70px;
+    }
+    
+    .service_index {
+        display: block;
+        align-items: center;
+    }
+    
+    .service_caption {
+        display: flex;
+    }
+
+
+    /* サービス */
+
+
+
+
+
+
+
 
 }
