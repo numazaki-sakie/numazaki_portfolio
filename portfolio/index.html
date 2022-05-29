@@ -2,7 +2,6 @@
 <html lang="ja">
 
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,19 +11,32 @@
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.0/css/all.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'tcn4bag',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
 </head>
 
 
 <body>
 
+    <!-- ヘッダーとファースト -->
     <header id="header">
         <div class="header_wrap">
             <h1 class="logo"><img src="PNG/header_rogo@2x.png" alt="Heart design"></h1>
             <nav class="pc_nav">
                 <ul>
-                    <li><a href="#top">TOP</a></li>
+                    <li><a href="#header">TOP</a></li>
                     <li><a href="#works">WORKS</a></li>
                     <li><a href="#servise">SERVICE</a></li>
                     <li><a href="#about">ABOUT</a></li>
@@ -33,9 +45,13 @@
             </nav>
             <div class="sns">
                 <ul>
-                    <li>■</li>
-                    <li>●</li>
-                    <li>▼</li>
+                    <li>
+                        <p><a class="fab fa-instagram my-gray fa-fw"
+                                href="https://www.instagram.com/heart_design.s/"></a></p>
+                    </li>
+                    <li>
+                        <p><a class="fab fa-twitter my-gray fa-fw" href="https://twitter.com/heart_design_s"></a></p>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -46,8 +62,6 @@
         <div class="heart">
             <img class="biglogo" src="PNG/pc_Heartdesign_rogo@2x.png" alt="heart design">
         </div>
-
-
     </header>
 
 
@@ -74,9 +88,16 @@
 
 
 
-    <!-- 実績 -->
-    <section>
+    <!-- 実績見出し -->
+    <div class="works_index" id="#works">
+        <div class="decoration_box"></div>
+        <img class="works_img" src="PNG/sp_works@2x.png" alt="これまでの実績">
+        <h2 class="works_title">これまでの実績</h2>
+    </div>
 
+
+    <!-- 実績 -->
+    <section class="works_section">
         <div class="works_slider">
             <div>
                 <picture>
@@ -115,13 +136,12 @@
                 </picture>
             </div>
         </div>
-
     </section>
 
 
 
     <!-- サービス見出し -->
-    <div class="service_index">
+    <div class="service_index" id="#servise">
         <div class="decoration_box"></div>
         <img class="service_img" src="PNG/pc_service@2x.png" alt="私にできること">
         <h2 class="service_title">私にできること</h2>
@@ -207,8 +227,14 @@
         <div class="SNS_icon">
             <img class="followme_img" src="PNG/pc_followme@2x-8.png" alt="SNSフォロー">
             <ul class="sns_link">
-                <li>●</li>
-                <li>▼</li>
+                <li>
+                    <p><a class="fab fa-instagram my-pink fa-fw" href="https://www.instagram.com/heart_design.s/"></a>
+                    </p>
+                </li>
+                <li>
+                    <p><a class="fab fa-twitter my-blue fa-fw" href="https://twitter.com/heart_design_s"></a>
+                    </p>
+                </li>
             </ul>
         </div>
 
@@ -284,22 +310,17 @@
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 2000,
+            dots: true,
+            responsive: [
+                {
+                    breakpoint: 787, //786px以下のサイズに適用
+                    settings: {
+                        slidesToShow: 1,
+                    },
+                },
+            ],
         });
 
-
-        // $('.works_slider').slick({
-        //     autoplay: true,
-        //     autoplaySpeed: 2000,
-        //     dots: true,
-        //     responsive: [
-        //         {
-        //             breakpoint: 787, //786px以下のサイズに適用
-        //             settings: {
-        //                 slidesToShow: 1,
-        //             },
-        //         },
-        //     ],
-        // });
     </script>
 
 
