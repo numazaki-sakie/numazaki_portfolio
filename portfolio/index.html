@@ -33,8 +33,20 @@
     <!-- ヘッダーとファースト -->
     <header id="header">
         <div class="header_wrap">
-            <h1 class="logo"><img src="PNG/header_rogo@2x.png" alt="Heart design"></h1>
+            <h1 class="logo">
+                <img src="PNG/header_rogo@2x.png" alt="Heart design">
+            </h1>
             <nav class="pc_nav">
+                <ul>
+                    <li><a href="#header">TOP</a></li>
+                    <li><a href="#works">WORKS</a></li>
+                    <li><a href="#servise">SERVICE</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="sp_btn"><span></span></div>
+            <nav class="sp_nav">
                 <ul>
                     <li><a href="#header">TOP</a></li>
                     <li><a href="#works">WORKS</a></li>
@@ -59,9 +71,12 @@
         <p class="name">NUMAZAKI SAKIE<br>
             portfolio</p>
 
-        <div class="heart">
-            <img class="biglogo" src="PNG/pc_Heartdesign_rogo@2x.png" alt="heart design">
-        </div>
+        <p class="heart">
+            <picture>
+                <source srcset="PNG/sp_Heartdesign_logo@2x-8.png" media="(max-width: 767px)">
+                <img class="biglogo" src="PNG/pc_Heartdesign_rogo@2x.png" alt="heart design">
+            </picture>
+        </p>
     </header>
 
 
@@ -70,7 +85,7 @@
         <div class="concept">
             <p class="myself">
                 <picture>
-                    <source srcset="JPG/sp_myself" media="(max-width: 767px)">
+                    <source srcset="PNG/sp_myself@2x-8.png" media="(max-width: 767px)">
                     <img src="PNG/pc_myself@2x-8.png" alt="numzaki sakie">
                 </picture>
             </p>
@@ -89,7 +104,7 @@
 
 
     <!-- 実績見出し -->
-    <div class="works_index" id="#works">
+    <div class="works_index" id="works">
         <div class="decoration_box"></div>
         <img class="works_img" src="PNG/sp_works@2x.png" alt="これまでの実績">
         <h2 class="works_title">これまでの実績</h2>
@@ -141,7 +156,7 @@
 
 
     <!-- サービス見出し -->
-    <div class="service_index" id="#servise">
+    <div class="service_index" id="servise">
         <div class="decoration_box"></div>
         <img class="service_img" src="PNG/pc_service@2x.png" alt="私にできること">
         <h2 class="service_title">私にできること</h2>
@@ -197,7 +212,7 @@
 
 
     <!-- アバウト見出し -->
-    <div class="about_index">
+    <div class="about_index" id="about">
         <div class="decoration_box"></div>
         <img class="about_img" src="PNG/pc_about@2x.png" alt="私について">
         <h2 class="about_title">私について</h2>
@@ -263,7 +278,7 @@
     <!-- ＿＿＿＿＿ -->
 
     <!-- コンタクト見出し -->
-    <div class="contact_index">
+    <div class="contact_index" id="contact">
         <div class="decoration_box"></div>
         <img class="contact_img" src="PNG/pc_contact@2x.png" alt="お問い合わせ">
         <h2 class="contact_title">お問い合わせ</h2>
@@ -277,13 +292,20 @@
                 メールやLINE、zoomによるご相談やお見積もりも可能です。お気軽にご相談下さい。
             </p>
 
-            <form action="" method="">
-                <p>お名前<input type="text" name="user_name"></p>
-                <p>会社名／団体名<input type="text" name="user_team"></p>
-                <p>メールアドレス<input type="email" name="user_mail"></p>
-                <p>お問い合わせ内容<textarea name="message"></textarea></p>
+            <form
+                action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe1nG1b4ewn7aM4VU9jlGdEMzXALj7lB7La0gI9tp1a3KV0Sw/formResponse"
+                method="post" target="hidden_iframe" onsubmit="submitted=true;">
+
+                <p>お名前<input type="text" name="entry.2005620554"></p>
+                <p>会社名／団体名<input type="text" name="entry.1166974658"></p>
+                <p>メールアドレス<input type="email" name="entry.1045781291"></p>
+                <p>お問い合わせ内容<textarea name="entry.839337160"></textarea></p>
                 <p class="submitBtn"><input type="submit" value="送信"></p>
             </form>
+            <script type="text/javascript">
+                var submitted = false;
+            </script>
+
 
         </div>
     </section>
@@ -322,7 +344,6 @@
         });
 
     </script>
-
 
 
 </body>
