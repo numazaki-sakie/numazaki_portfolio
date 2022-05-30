@@ -347,6 +347,10 @@ header {
     margin-top: -40px;
 }
 
+.sp_graphic_index {
+    display: none;
+}
+
 
 /* アザー */
 .other_img {
@@ -393,6 +397,10 @@ header {
     margin-top: -40px;
 }
 
+.sp_other_index {
+    display: none;
+}
+
 
 
 /* アバウト見出し */
@@ -411,12 +419,17 @@ header {
 .about_title {
     font-size: 24px;
     padding-left: 10px;
+    padding-top: 50px;
 }
 
 .about_index {
     display: flex;
     align-items: center;
     margin-top: 120px;
+}
+
+.about_caption {
+    display: flex;
 }
 
 
@@ -459,11 +472,13 @@ header {
     width: 450px;
     margin-left: 20px;
     margin-right: 90px;
+    font-size: 19px;
     line-height: 1.89;
 }
 
 .about_text2 {
     width: 450px;
+    font-size: 19px;
     line-height: 1.89;
 }
 
@@ -808,10 +823,12 @@ footer {
 
     /* サービス */
 
+    /* WEB制作 */
     .web {
-        width: 375px;
+        width: 100%;
         display: block;
-        margin: 0 auto;
+        margin-bottom: 50px;
+        /* margin: 0 auto; */
     }
 
     .web_index {
@@ -824,16 +841,16 @@ footer {
 
     .index_number {
         font-size: 42px;
-        /* padding-left: 20px; */
     }
 
     .web_h3 {
-        font-size: 22px;
-        margin-top: 10px;
+        font-size: 18px;
+        margin-top: 12px;
     }
 
     .web_img {
-        width: 375px;
+        width: 335px;
+        margin: 0 20px;
     }
 
     .web_text {
@@ -843,13 +860,188 @@ footer {
     }
     
     .web_detail {
-        width: 375px;
+        width: 100%;
         margin: 0 auto;
         height: 250px;
         background-color: #f4e3e1;
-        /* margin-top: 40px; */
-        /* margin-left: -20px; */
     }
+
+
+
+    /* グラフィックデザイン */
+    .graphic {
+        width: 100%;
+        display: block;
+        margin-bottom: 50px;
+    }
+
+    .graphic_detail {
+        width: 100%;
+        height: 250px;
+        background-color: #f4e3e1; 
+        margin-top: -2px;
+    }
+
+    .graphic_img {
+        width: 335px;
+        margin: 0 20px;
+    }
+
+    .graphic_h3 {
+        font-size: 18px;
+        margin-top: 12px;
+    }
+
+    .graphic_text {
+        font-size: 16px;
+        line-height: 1.75;
+        padding: 40px;
+    }
+
+    .graphic_index {
+        display: none;
+    }
+
+    .sp_graphic_index {
+        display: flex;
+    }
+
+
+    /* other */
+    .other {
+        width: 100%;
+        display: block;
+        margin-bottom: 100px;
+        /* margin: 0 auto; */
+    }
+
+    .other_index {
+        display: none;
+    }
+
+    .sp_other_index {
+        display: flex;
+    }
+
+    .other_number {
+        font-size: 42px;
+    }
+
+    .other_h3 {
+        font-size: 18px;
+        margin-top: 12px;
+    }
+
+    .other_img {
+        width: 335px;
+        margin: 0 20px;
+    }
+
+    .other_text {
+        font-size: 16px;
+        line-height: 1.75;
+        padding: 40px;
+    }
+    
+    .other_detail {
+        width: 100%;
+        margin: 0 auto;
+        height: 250px;
+        background-color: #f4e3e1;
+    }
+
+
+
+    /* アバウト見出し */
+    .about_img {
+        width: 103px;
+        margin-top: 30px;
+        margin-left: 30px;
+        padding-top: 30px;
+    }
+    
+    .about_title {
+        font-size: 18px;
+        padding-left: 10px;
+        padding-top: 70px;
+    }
+    
+    .about_index {
+        display: block;
+        align-items: center;
+    }
+    
+    .about_caption {
+        display: flex;
+    }
+
+
+    /* アバウト */
+    .about_info_area {
+        display: block;
+    }
+
+    .about_section {
+        width: 100%;
+        margin: 0 20px;
+        margin-top: -100px;
+    }
+    
+    .myname {
+        font-size: 28px;
+    }
+    
+    .about_face_img {
+        width: 280px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .name_text_area {
+        width: 100%;
+        margin: 0 20px;
+    }
+
+    .name_sub {
+        font-size: 14px;
+        text-align: center;
+        width: 295px;
+        height: 23px;
+        border-radius: 12px;
+        /* padding-top: 9px; */
+        /* padding-left: 38px; */
+        margin-bottom: 30px;
+    }
+    /* なんかここうまくいっていない */
+
+    .abouttext {
+        display: block;
+        width: 100%;
+        margin: 0 20px;
+    }
+
+    .about_text1 {
+        width: 100%;
+        margin: 0 20px;
+        font-size: 16px;
+        line-height: 1.75;
+    }
+    
+    .about_text2 {
+        width: 100%;
+        margin: 0 20px;
+        font-size: 16px;
+        line-height: 1.75;
+    }
+
+    /* ここのテキストが分かれちゃう部分どうしようかな
+    display: none;で出しわけしようかな
+ */
+
+
+
+
+
 
 
 
