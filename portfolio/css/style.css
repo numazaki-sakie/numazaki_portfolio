@@ -300,6 +300,10 @@ header {
     margin-top: -40px;
 }
 
+.sp_web_index {
+    display: none;
+}
+
 
 /* グラフィックデザイン */
 .graphic_img {
@@ -803,6 +807,49 @@ footer {
 
 
     /* サービス */
+
+    .web {
+        width: 375px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .web_index {
+        display: none;
+    }
+
+    .sp_web_index {
+        display: flex;
+    }
+
+    .index_number {
+        font-size: 42px;
+        /* padding-left: 20px; */
+    }
+
+    .web_h3 {
+        font-size: 22px;
+        margin-top: 10px;
+    }
+
+    .web_img {
+        width: 375px;
+    }
+
+    .web_text {
+        font-size: 16px;
+        line-height: 1.75;
+        padding: 40px;
+    }
+    
+    .web_detail {
+        width: 375px;
+        margin: 0 auto;
+        height: 250px;
+        background-color: #f4e3e1;
+        /* margin-top: 40px; */
+        /* margin-left: -20px; */
+    }
 
 
 
