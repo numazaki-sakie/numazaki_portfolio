@@ -311,19 +311,24 @@
 
     <!-- ＿＿＿＿＿ -->
 
+
     <!-- コンタクト見出し -->
     <div class="contact_index" id="contact">
         <div class="decoration_box"></div>
-        <img class="contact_img" src="PNG/pc_contact@2x.png" alt="お問い合わせ">
-        <h2 class="contact_title">お問い合わせ</h2>
+        <div class="contact_caption">
+            <img class="contact_img" src="PNG/pc_contact@2x.png" alt="お問い合わせ">
+            <h2 class="contact_title">お問い合わせ</h2>
+        </div>
+        <div class="decoration_box2"></div>
     </div>
 
     <!-- コンタクトフォーム -->
     <section class="contact_section">
         <div class="contact_wrap">
             <p class="contact_text">
-                WEB制作、その他デザイン制作に関するご依頼、ご相談はこちらからお願いいたします。<br>
-                メールやLINE、zoomによるご相談やお見積もりも可能です。お気軽にご相談下さい。
+                WEB制作、その他デザイン制作に関するご依頼・ご相談は<br>
+                こちらからお願いいたします。<br>
+                zoomでのご相談やお見積盛りも可能です。お気軽にご相談下さい。
             </p>
 
             <form
@@ -366,12 +371,6 @@
                 $('.sp_nav').fadeToggle();
                 $('.sp_btn').toggleClass('open');
             });
-            $('.slider').slick({
-                autoplay: true,
-                dots: true,
-                autospeed: 2000,
-                arrows: false
-            });
         });
 
         // worksスライダー
@@ -381,6 +380,9 @@
             autoplay: true,
             autoplaySpeed: 2000,
             dots: true,
+            arrows: false,
+
+
             responsive: [
                 {
                     breakpoint: 787, //786px以下のサイズに適用
