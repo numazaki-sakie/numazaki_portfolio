@@ -687,6 +687,83 @@ footer {
 }
 
 
+/* ーーーーーーーーーーーーーーー下層ページーーーーーーーーーーーーーーーーー */
+
+
+/* ワークスページ */
+
+.header_sub {
+    background: none;
+}
+
+.works_index_sub {
+    display: flex;
+    align-items: center;
+    margin-top: -600px;
+}
+
+
+/* 脱毛バナー */
+.banner_contents {
+    display: flex;
+    max-width: 1920px;
+}
+
+.banner_img {
+    width: 50%;
+    margin-top: 20px;
+    margin-right: 5%;
+}
+
+.banner_detail {
+    width: 40%;
+}
+
+.works_sub_h3 {
+    margin-top: 50px;
+    margin-bottom: 18px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.works_sub_wrap {
+    margin-bottom: 40px;
+    font-size: 16px;
+    color: #000;
+}
+
+.works_sub_title {
+    margin-left: 10%;
+}
+
+.worls_text_title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.works_sub_text {
+    color: #000;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.banner_list li {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: solid 1px #b3b3b3;
+    max-width: 260px;
+}
+
+.black {
+    color: #000;
+}
+
+
+
+
+
+
 
 /* レスポンシブ */
 @media screen and (max-width:1100px) {
@@ -839,7 +916,7 @@ footer {
 
     /* ヘッダー&トップ */
 
-    header {
+    .header_top {
         background: url("../JPG/sp_first@2x-100.jpg") center center / cover no-repeat;
         height: 100vh;
     }
@@ -1331,7 +1408,6 @@ footer {
     .tanks_text {
         font-size: 14px;
     }
-
 
 
 

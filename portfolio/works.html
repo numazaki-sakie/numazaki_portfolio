@@ -30,28 +30,28 @@
 <body>
 
     <!-- ヘッダーとファースト -->
-    <header id="header">
+    <header class="header_sub">
         <div class="header_wrap">
             <h1 class="logo">
                 <img src="PNG/header_rogo@2x.png" alt="Heart design">
             </h1>
             <nav class="pc_nav">
                 <ul>
-                    <li><a href="#header">TOP</a></li>
-                    <li><a href="#works">WORKS</a></li>
-                    <li><a href="#servise">SERVICE</a></li>
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="index.html#header">TOP</a></li>
+                    <li><a href="index.html#works">WORKS</a></li>
+                    <li><a href="index.html#servise">SERVICE</a></li>
+                    <li><a href="index.html#about">ABOUT</a></li>
+                    <li><a href="index.html#contact">CONTACT</a></li>
                 </ul>
             </nav>
             <div class="sp_btn"><span></span></div>
             <nav class="sp_nav">
                 <ul>
-                    <li><a href="#header">TOP</a></li>
-                    <li><a href="#works">WORKS</a></li>
-                    <li><a href="#servise">SERVICE</a></li>
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="index.html#header">TOP</a></li>
+                    <li><a href="index.html#works">WORKS</a></li>
+                    <li><a href="index.html#servise">SERVICE</a></li>
+                    <li><a href="index.html#about">ABOUT</a></li>
+                    <li><a href="index.html#contact">CONTACT</a></li>
                 </ul>
             </nav>
 
@@ -67,16 +67,42 @@
                 </ul>
             </div>
         </div>
+    </header>
 
-        <!-- 実績見出し -->
-        <div class="works_index" id="works">
-            <div class="decoration_box"></div>
-            <div class="works_caption">
-                <img class="works_img" src="PNG/sp_works@2x.png" alt="これまでの実績">
-                <h2 class="works_title">これまでの実績</h2>
-            </div>
-            <div class="decoration_box2"></div>
+
+    <!-- 実績見出し -->
+    <div class="works_index_sub" id="works">
+        <div class="decoration_box"></div>
+        <div class="works_caption">
+            <img class="works_img" src="PNG/sp_works@2x.png" alt="これまでの実績">
+            <h2 class="works_title">これまでの実績</h2>
         </div>
+        <div class="decoration_box2"></div>
+    </div>
+
+
+    <section class="banner_section">
+        <div class="works_sub_title">
+            <h3 class="works_sub_h3">バナー（LINE広告）</h3>
+            <p class="works_sub_wrap">全身脱毛サロン「beauty ROOM」の友達追加をCVとしたLINE広告です</p>
+        </div>
+        <div class="banner_contents">
+            <p class="banner_img"><img src="JPG/works_img01@2x-100.jpg" alt="脱毛サロンバナー"></p>
+            <div class="banner_detail">
+                <ul class="banner_list">
+                    <li><span class="border">担当範囲<span class="black"> 　　素材選定とデザイン</span></span></li>
+                    <li><span class="border">制作期間<span class="black"> 　　一週間</span></span></li>
+                    <li><span class="border">使用ツール<span class="black"> 　Adobe Photoshop</span></span></li>
+                    <li><span class="border">価格<span class="black"> 　　　　¥6,600</span></span></li>
+                </ul>
+                <p class="worls_text_title">ご依頼内容とポイント</p>
+                <p class="works_sub_text">全身脱毛サロン「beauty ROOM」さんのバナー広告を制作しました。夏までに全身脱毛をしたい２０代女性がターゲット。<br>
+                    脱毛を終えて肌が綺麗になり、清々しい気持ちで夏を迎える女性をイメージして写真を選びました。<br>
+                    また、配色は夏を連想する水色と黄色をセレクト。ターゲットの年代に合わせた可愛らしいフォントを使い、見やすくシンプルにまとめつつも初月０円の訴求をしっかりと行っています。CVのお友達追加はボタン風で追加を誘導。LINEカラーで一目でLINEお友達追加と分かるようにしています。
+                </p>
+            </div>
+        </div>
+    </section>
 
 
 
@@ -86,15 +112,16 @@
 
 
 
-        <script>
-            $(function () {
-                $('.sp_btn,.sp_nav li').click(function () {
-                    $('.sp_nav').fadeToggle();
-                    $('.sp_btn').toggleClass('open');
-                });
+
+    <script>
+        $(function () {
+            $('.sp_btn,.sp_nav li').click(function () {
+                $('.sp_nav').fadeToggle();
+                $('.sp_btn').toggleClass('open');
             });
+        });
 
-        </script>
+    </script>
 
 
 </body>
