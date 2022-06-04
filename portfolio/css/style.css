@@ -699,7 +699,8 @@ footer {
 .works_index_sub {
     display: flex;
     align-items: center;
-    margin-top: -600px;
+    margin-top: -670px;
+    margin-bottom: -50px;
 }
 
 
@@ -720,14 +721,14 @@ footer {
 }
 
 .works_sub_h3 {
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 18px;
     font-size: 24px;
     font-weight: bold;
 }
 
 .works_sub_wrap {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-size: 16px;
     color: #000;
 }
@@ -737,9 +738,10 @@ footer {
 }
 
 .worls_text_title {
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 10px;
     font-size: 18px;
+    font-weight: bold;
 }
 
 .works_sub_text {
@@ -758,6 +760,128 @@ footer {
 .black {
     color: #000;
 }
+
+
+/* 脱毛リッチメニュー */
+.richmenu_contents {
+    display: flex;
+    max-width: 1920px;
+}
+
+.richmenu_img {
+    width: 50%;
+    margin-top: 20px;
+    margin-right: 5%;
+}
+
+.richmenu_detail {
+    width: 40%;
+}
+
+.richmenu_list li {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: solid 1px #b3b3b3;
+    max-width: 260px;
+}
+
+
+/* LP型デザイン */
+.salon_LP_contents {
+    display: flex;
+    max-width: 1920px;
+}
+
+.salon_LP_img {
+    width: 50%;
+    margin-top: 20px;
+    margin-right: 5%;
+}
+
+.salon_LP_detail {
+    width: 40%;
+}
+
+.salon_LP_list li {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: solid 1px #b3b3b3;
+    max-width: 260px;
+}
+
+
+/* ロゴとワッペン */
+.logowappen_contents {
+    display: flex;
+    max-width: 1920px;
+}
+
+.logowappen_img {
+    width: 50%;
+    margin-top: 20px;
+    margin-right: 5%;
+}
+
+.logowappen_detail {
+    width: 40%;
+}
+
+.logowappen_list li {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: solid 1px #b3b3b3;
+    max-width: 280px;
+}
+
+
+/* 名刺デザイン */
+.businesscard_contents {
+    display: flex;
+    max-width: 1920px;
+}
+
+.businesscard_img {
+    width: 50%;
+    margin-top: 20px;
+    margin-right: 5%;
+}
+
+.businesscard_detail {
+    width: 40%;
+}
+
+.businesscard_list li {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: solid 1px #b3b3b3;
+    max-width: 280px;
+}
+
+
+/* WEBサイト制作 */
+.website_contents {
+    display: flex;
+    max-width: 1920px;
+    margin-bottom: 120px;
+}
+
+.website_img {
+    width: 50%;
+    margin-top: 20px;
+    margin-right: 5%;
+}
+
+.website_detail {
+    width: 40%;
+}
+
+.website_list li {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: solid 1px #b3b3b3;
+    max-width: 280px;
+}
+
 
 
 
@@ -1407,6 +1531,14 @@ footer {
 
     .tanks_text {
         font-size: 14px;
+    }
+
+
+    /* ーーーーーーーーーーー下層ページーーーーーーーーーーーーー */
+
+    .banner_contents {
+        display: block;
+        width: auto;
     }
 
 
