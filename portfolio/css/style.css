@@ -208,6 +208,20 @@ header {
 }
 
 
+/* 実績MOREボタン */
+.more_link {
+    background-color: #f2d6d1;
+    width: 160px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+    padding: 12px 0;
+    letter-spacing: 0.15em;
+    margin: 70px auto;
+}
+
 
 /* サービス見出し */
 .decoration_box {
@@ -620,7 +634,7 @@ form > p {
 }
 input[type="submit"] {
     background-color: #f2d6d1;
-    width: 180px;
+    width: 160px;
     height: 40px;
     border-radius: 5px;
     border: none;
@@ -1141,6 +1155,13 @@ footer {
     .works_caption {
         display: flex;
     }
+
+    .more_link {
+        width: 120px;
+        font-size: 14px;
+        padding: 8px 0;
+        margin: 70px auto;
+    }
     
 
 
@@ -1536,10 +1557,197 @@ footer {
 
     /* ーーーーーーーーーーー下層ページーーーーーーーーーーーーー */
 
+    .works_index_sub {
+        margin-top: -600px;
+    }
+
+    /* 脱毛バナー */
+    .works_sub_h3 {
+        font-size: 20px;
+    }
+
+    .works_sub_wrap {
+        font-size: 15px;
+    }
+
+    .works_sub_title {
+        margin-left: 5%;
+    }
+
     .banner_contents {
         display: block;
         width: auto;
     }
+
+    .banner_img {
+        width: 335px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+    .banner_detail {
+        width: auto;
+        margin: 0 25px;
+    }
+
+    .banner_list {
+        padding-left: 10%;
+    }
+
+    .worls_text_title {
+        font-size: 16px;
+    }
+    
+    .banner_list li {
+        font-size: 16px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+
+    /* リッチメニュー */
+    .richmenu_contents {
+        display: block;
+        width: auto;
+    }
+
+    .richmenu_img {
+        width: 335px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+    .richmenu_detail {
+        width: auto;
+        margin: 0 25px;
+    }
+
+    .richmenu_list {
+        padding-left: 10%;
+    }
+
+    .richmenu_list li {
+        font-size: 16px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+
+    /* サロンLP */
+    .salon_LP_contents {
+        display: block;
+        width: auto;
+    }
+
+    .salon_LP_img {
+        width: 335px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+    .salon_LP_detail {
+        width: auto;
+        margin: 0 25px;
+    }
+
+    .salon_LP_list {
+        padding-left: 10%;
+    }
+
+    .salon_LP_list li {
+        font-size: 16px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+
+    /* ロゴ・ワッペン */
+    .logowappen_contents {
+        display: block;
+        width: auto;
+    }
+
+    .logowappen_img {
+        width: 335px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+    .logowappen_detail {
+        width: auto;
+        margin: 0 25px;
+    }
+
+    .logowappen_list {
+        padding-left: 10%;
+    }
+
+    .logowappen_list li {
+        font-size: 16px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+
+    /* 名刺 */
+    .businesscard_contents {
+        display: block;
+        width: auto;
+    }
+
+    .businesscard_img {
+        width: 335px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+    .businesscard_detail {
+        width: auto;
+        margin: 0 25px;
+    }
+
+    .businesscard_list {
+        padding-left: 10%;
+    }
+
+    .businesscard_list li {
+        font-size: 16px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+
+    /* ポートフォリオ */
+    .website_contents {
+        display: block;
+        width: auto;
+    }
+
+    .website_img {
+        width: 335px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+    .website_detail {
+        width: auto;
+        margin: 0 25px;
+    }
+
+    .website_list {
+        padding-left: 10%;
+    }
+
+    .website_list li {
+        font-size: 16px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+
+
+
+
 
 
 
