@@ -53,7 +53,7 @@ img {
 
 
 /* ヘッダー */
-header {
+.header_top {
     background: url("../JPG/pc_first@2x-100.jpg") center center / cover no-repeat;
     height: 100vh;
     /* width: auto; */
@@ -61,7 +61,7 @@ header {
 
 .header_wrap {
     display: flex;
-    max-width: 1920px;
+    /* max-width: 1920px; */
     height: 100px;
     /* padding-top: 30px;
     padding-bottom: 48px; */
@@ -138,7 +138,6 @@ header {
 .concept_section {
     width: 100%;
     background-color: #f4e3e1;
-    margin-bottom: 120px;
 }
 
 .concept {
@@ -201,6 +200,7 @@ header {
 .works_index {
     display: flex;
     align-items: center;
+    padding-top: 120px;
 }
 
 .works_caption {
@@ -245,7 +245,7 @@ header {
 .service_index {
     display: flex;
     align-items: center;
-    margin-top: 120px;
+    padding-top: 120px;
 }
 
 .service_caption {
@@ -430,7 +430,7 @@ header {
 .about_index {
     display: flex;
     align-items: center;
-    margin-top: 120px;
+    padding-top: 120px;
 }
 
 .about_caption {
@@ -528,7 +528,7 @@ header {
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin-bottom: 120px;
+    /* margin-bottom: 120px; */
 }
 
 .my-pink {
@@ -565,6 +565,7 @@ header {
 .contact_index {
     display: flex;
     align-items: center;
+    padding-top: 120px;
 }
 
 .contact_caption {
@@ -713,7 +714,7 @@ footer {
 .works_index_sub {
     display: flex;
     align-items: center;
-    margin-top: -670px;
+    padding-top: 120px;
     margin-bottom: -50px;
 }
 
@@ -904,6 +905,18 @@ footer {
 
 
 /* レスポンシブ */
+
+
+@media screen and (max-width:1350px) {
+
+    .pc_nav ul li {
+        color: #fff;
+        margin-right: 70px;
+    }
+
+}
+
+
 @media screen and (max-width:1100px) {
 
 
@@ -1558,7 +1571,7 @@ footer {
     /* ーーーーーーーーーーー下層ページーーーーーーーーーーーーー */
 
     .works_index_sub {
-        margin-top: -600px;
+        padding-top: 50px;
     }
 
     /* 脱毛バナー */
@@ -1745,13 +1758,38 @@ footer {
     }
 
 
+}
 
 
+/* 1920px以上 */
+@media screen and (min-width: 1920px) {
 
+    .banner_contents {
+        margin: 0 auto;
+    }
 
+    .richmenu_contents {
+        margin: 0 auto;
+    }
 
+    .salon_LP_contents {
+        margin: 0 auto;
+    }
 
+    .logowappen_contents {
+        margin: 0 auto;
+    }
 
+    .businesscard_contents {
+        margin: 0 auto;
+    }
 
+    .website_contents {
+        margin: 0 auto;
+    }
+
+    footer {
+        margin-top: 120px;
+    }
 
 }
